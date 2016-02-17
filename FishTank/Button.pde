@@ -36,16 +36,12 @@ class Button {
   }
   void action() {
     if (text=="New Goldfish") {
-      for(int i = 0; i<20; i++)
       fishList.add(new Goldfish());
     } else if (text=="New Pirahna") {
-      for(int i = 0; i<20; i++)
       fishList.add(new Piranha());
     } else if (text=="New Whale") {
-      for(int i = 0; i<20; i++)
       fishList.add(new Whale());
     } else if (text=="New Toroidalfin") {
-      for(int i = 0; i<20; i++)
       fishList.add(new Toroidalfin());
     } else if (text=="Sprinkle Food") {
       for (int i = 0; i <8; i++) {
